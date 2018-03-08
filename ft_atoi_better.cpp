@@ -2,7 +2,7 @@
 #include    <string>
 #include    <sstream>
 
-int     ft_intToString_better(std::string p_str)
+int     ft_atoi_better(std::string p_str)
 {
     std::istringstream      iss(p_str);
     int                     ret(0);
